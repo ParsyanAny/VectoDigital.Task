@@ -14,6 +14,7 @@ namespace VectoDigital.Task
             public ImagesController(IImageHandler imageHandler) => _imageHandler = imageHandler;
             public async Task<IActionResult> UploadImage(IFormFile file)
                 => await _imageHandler.UploadImage(file);
+
         }
     }
 }
