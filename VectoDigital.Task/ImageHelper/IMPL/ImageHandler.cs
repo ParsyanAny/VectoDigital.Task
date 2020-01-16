@@ -12,6 +12,11 @@ namespace VectoDigital.Task.ImageHelper
             _imageWriter = imageWriter;
         }
 
+        //public Task<IActionResult> UploadAndEditImage(IFormFile file, int h, int w)
+        //{
+        //    throw new System.NotImplementedException();
+        //}
+
         public async Task<IActionResult> UploadImage(IFormFile file)
         {
             var result = await _imageWriter.UploadImage(file);

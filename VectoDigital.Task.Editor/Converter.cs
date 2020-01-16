@@ -7,16 +7,15 @@ namespace VectoDigital.Task.Editor
 {
     public class Converter
     {
-        // here must be all convert functions (resize, effects...)
         public void ResizeTo100x300()
         {
-
-            //...
+            //... Resize();
         }
         public void ToDo()
         {
-            //...
+            //... GetEffect();
         }
+
         public static System.Drawing.Image Resize(System.Drawing.Image image, int maxWidth, int maxHeight)
         {
             var ratioX = (double)maxWidth / image.Width;
@@ -33,5 +32,10 @@ namespace VectoDigital.Task.Editor
 
             return newImage;
         }
+
+        //public void Effect() 
+        //{ 
+        
+        //}
     }
 }

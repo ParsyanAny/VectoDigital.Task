@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using System.Threading.Tasks;
+using VectoDigital.Task.Editor;
 using VectoDigital.Task.ImageHelper;
 
 namespace VectoDigital.Task
@@ -15,6 +17,17 @@ namespace VectoDigital.Task
             public async Task<IActionResult> UploadImage(IFormFile file)
                 => await _imageHandler.UploadImage(file);
 
+            public async Task<IActionResult> UploadAndEditImage(IFormFile file, int h, int w)
+            {
+                throw new System.Exception();
+            }
+            //public async Task<IActionResult> UploadImages(List<IFormFile> files)
+            //{
+            //    foreach (var item in files)
+            //    {
+            //        _imageHandler.UploadImage(item);
+            //    }
+            //}
         }
     }
 }
