@@ -1,9 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
+using VectoDigital.Task.Effects;
 using static VectoDigital.Task.ImageHelper.ImageHelper;
 
 namespace VectoDigital.Task.ImageHelper
@@ -24,7 +23,7 @@ namespace VectoDigital.Task.ImageHelper
                 file.CopyTo(ms);
                 fileBytes = ms.ToArray();
             }
-            return WriterHelper.GetImageFormat(fileBytes) != WriterHelper.ImageFormat.unknown;
+            return WriterHelper.GetImageFormat(fileBytes) != Enums.ImageFormat.unknown;
         }
         public async Task<string> WriteFile(IFormFile file)
         {
