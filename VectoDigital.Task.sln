@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectoDigital.Task", "VectoDigital.Task\VectoDigital.Task.csproj", "{3FD5F09E-A1B1-4D6B-9EA2-9D078AAC1739}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectoDigital.Task.Editor", "VectoDigital.Task.Editor\VectoDigital.Task.Editor.csproj", "{72C437BF-70B8-430C-8A7F-65ABD1FB9DC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FD5F09E-A1B1-4D6B-9EA2-9D078AAC1739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FD5F09E-A1B1-4D6B-9EA2-9D078AAC1739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FD5F09E-A1B1-4D6B-9EA2-9D078AAC1739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FD5F09E-A1B1-4D6B-9EA2-9D078AAC1739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72C437BF-70B8-430C-8A7F-65ABD1FB9DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C437BF-70B8-430C-8A7F-65ABD1FB9DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C437BF-70B8-430C-8A7F-65ABD1FB9DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C437BF-70B8-430C-8A7F-65ABD1FB9DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6A36BCD-7FEE-4668-A1E8-4DE0B872C2A6}
+	EndGlobalSection
+EndGlobal
